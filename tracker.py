@@ -16,7 +16,7 @@ def add_courses():
 def display_grade():
     print("here are your grades")
     for course_name, score in grade.items():
-        print(f"Your overall score in {course_name} is {score}.")
+        print(f"Your overall score in {course_name} is {score} keep up the good job.")
 
 # To calculate total grade
 def calculate_total_grade():
@@ -36,7 +36,7 @@ while True:
     elif choice == "3":
         calculate_total_grade()
     elif choice == "4":
-        print("exiting program so sad to see you leave.")
+        print("so sad to see you leave.")
         break
     else:
         print("invalid choice try again later.")
